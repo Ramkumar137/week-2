@@ -1,0 +1,22 @@
+WEEK 2 – MODEL EVALUATION REPORT
+---
+
+Model: MobileNetV2 (Fine-Tuned)
+Dataset: Clean vs Dirty Water Dataset
+Classes: Clean Water, Polluted Water
+
+Training Accuracy: 93.0 %
+Validation Accuracy: 92.86 %
+Loss: 0.0873
+
+Classification Report:
+- Clean Water: Precision = 1.00, Recall = 0.89, F1 = 0.94
+- Polluted Water: Precision = 0.83, Recall = 1.00, F1 = 0.91
+
+Observations:
+• Model shows improved performance compared to Week 1.  
+• Fine-tuning top 20 layers and using a lower learning rate (1e-5) helped reduce validation loss.  
+• Perfect recall for polluted water images indicates strong environmental detection capability.
+
+Saved Model: water_pollution_detector_v2.h5
+Author: Ram Kumar
