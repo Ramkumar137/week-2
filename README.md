@@ -38,11 +38,11 @@ Such systems can support environmental monitoring and help ensure safe water for
 
 ## Repository Contents
 
-Week2_Water_Pollution_Detection/
-├── water_pollution_finetune.ipynb
-├── water_pollution_detector_v2.h5
-├── README.md
-└── evaluation_report.txt
+    Week2_Water_Pollution_Detection/
+      ├── water_pollution_finetune.ipynb
+      ├── water_pollution_detector_v2.h5
+      ├── README.md
+      └── evaluation_report.txt
 ---
 
 ## Key Learnings
