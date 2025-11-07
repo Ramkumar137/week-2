@@ -4,7 +4,6 @@
 This week focused on improving and evaluating the CNN model for classifying **clean** vs **polluted** water images.  
 Using **Transfer Learning (MobileNetV2)**, the model was fine-tuned on the dataset to boost accuracy and generalization.
 
----
 
 ## Steps Performed
 1. **Loaded saved model** from Week 1 (`water_pollution_detector.h5`)
@@ -14,7 +13,6 @@ Using **Transfer Learning (MobileNetV2)**, the model was fine-tuned on the datas
 5. **Evaluated model** using accuracy/loss graphs, confusion matrix & classification report
 6. **Saved improved model** as `water_pollution_detector_v2.h5`
 
----
 
 ## Model Performance
 | Metric | Result |
@@ -28,13 +26,11 @@ Using **Transfer Learning (MobileNetV2)**, the model was fine-tuned on the datas
 
 The fine-tuned model performed strongly, achieving higher precision and recall than Week 1.
 
----
 
 ## Sustainability Relevance
 This project contributes to **SDG 6 – Clean Water and Sanitation**, by enabling early detection of water pollution through image-based AI models.  
 Such systems can support environmental monitoring and help ensure safe water for all.
 
----
 
 ## Repository Contents
 
@@ -43,7 +39,6 @@ Such systems can support environmental monitoring and help ensure safe water for
       ├── water_pollution_detector_v2.h5
       ├── README.md
       └── evaluation_report.txt
----
 
 ## Key Learnings
 - Importance of **fine-tuning pretrained networks**
